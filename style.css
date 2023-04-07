@@ -1,0 +1,80 @@
+*{ 
+    margin: 0,5px;
+    padding: 0,5px;
+    box-sizing: border-box;
+}
+body { 
+    background-image: url('./img/puente.jpg');
+
+}
+.menu{
+    color: rgb(243, 248, 241);
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+.form-register{
+    width: 400px;
+    color: rgb(239, 223, 223);
+    border: nane;
+    padding: 30px;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.controls{
+    width: 100%;
+    padding: 10px;
+    color: brown;
+    border-radius: 1px;
+    margin-bottom: 5px;
+    border: 1px solid rgb(133, 10, 10); 
+}
+.form-register .botons{
+    width: 20%;
+    background: rgb(199, 231, 54);
+    border: none;
+    padding: 12px;
+
+}
+
+
+footer{
+    background: #00c8ffbd;
+    padding: 60px 0 30px 0 ;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid rgb(36, 163, 231);
+}
+
+.content-foo{
+    text-align: center;
+}
+
+.content-foo h4{
+    color: rgb(33, 28, 21);
+    border-bottom:  2px solid rgba(36, 163, 231, 0.646);
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+
+.content-foo p{
+    color: rgb(61, 65, 60);
+}
+
+.titulo-final{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: rgb(11, 8, 8);
+}
